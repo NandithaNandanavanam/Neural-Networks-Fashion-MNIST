@@ -4,8 +4,6 @@ The Fashion-MNIST dataset consists of 60000 training and 10000 testing images wh
 ## Training
 The Fashion-MNIST dataset contains 60000 training images and 10000 testing images.  The model parameters: weights of features and bias are initialized. The hyper parameters: learning rate, number of hidden nodes in the hidden layer and epochs are set to a value initially. One-hot-encode is applied on the output vector that creates a column for each output category and a binary variable is inputted for each category.
 ## Result
-### Confusion Matrix
-<img src=https://github.com/NandithaNandanavanam/Neural-Networks-Fashion-MNIST/blob/master/ConfusionMatrix.PNG>
 A single layer neural network model with 600 hidden nodes and 60 iterations and a learning rate of 0.6 hardly yielded 60.3% accuracy. Also, the computation time was very slow.  
  
 Multi-layer neural network model with 100, 30, 20, 10 nodes in respective hidden layers after an iteration of 40 yielded better accuracy of 88.42% as well as lesser computation time. 
